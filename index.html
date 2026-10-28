@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEVEN STAR PERFUME | Imperial Valley</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090909;color:#f8f0df;font-family:Arial,sans-serif}
+header{padding:22px 15px;text-align:center;border-bottom:1px solid #b89550}
+.logo{color:#d9b568;font-family:Georgia,serif;font-size:25px;letter-spacing:3px}
+nav{padding:15px;text-align:center}
+nav a{color:white;text-decoration:none;margin:0 10px;font-size:13px}
+.hero{text-align:center;padding:70px 20px 55px;background:radial-gradient(ellipse at center,#302313,#090909 70%)}
+.tag{color:#d9b568;letter-spacing:4px;font-size:12px}
+h1{font-family:Georgia,serif;font-size:clamp(38px,10vw,66px);font-weight:normal;margin:20px 0}
+h1 span{color:#d9b568}
+.hero p{color:#c8c0b2;line-height:1.8}
+.btn{display:inline-block;background:#c8a45b;color:#090909;text-decoration:none;padding:15px 24px;margin-top:18px;font-weight:bold;letter-spacing:1px}
+section{padding:48px 20px;text-align:center}
+h2{font-family:Georgia,serif;font-size:30px;font-weight:normal}
+.gold{color:#d9b568}
+.product{max-width:420px;margin:25px auto;border:1px solid #514126;padding:25px}
+.bottle{width:150px;height:205px;margin:25px auto 30px;border:3px solid #c8a45b;border-radius:22px 22px 12px 12px;background:linear-gradient(90deg,#33200d,#bd8b35,#36210c);position:relative;box-shadow:0 0 35px #b78c3430}
+.cap{position:absolute;width:55px;height:38px;background:linear-gradient(90deg,#8a6629,#f4d78b,#8a6629);top:-40px;left:45px;border-radius:5px 5px 0 0}
+.label{position:absolute;top:70px;left:8px;right:8px;padding:12px 2px;background:#15110c;border:1px solid #d9b568;color:#e8c982;font-family:Georgia,serif;font-size:12px}
+.price{font-size:27px;color:#d9b568}
+.small{font-size:12px;color:#aaa;line-height:1.8}
+.story{background:#111}
+footer{padding:28px 15px;text-align:center;border-top:1px solid #514126;color:#aaa;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">SEVEN STAR</div>
+  <div class="small">P E R F U M E</div>
+</header>
+<nav>
+  <a href="#home">HOME</a>
+  <a href="#collection">COLLECTION</a>
+  <a href="#story">OUR STORY</a>
+</nav>
+<main>
+<section class="hero" id="home">
+  <div class="tag">THE ART OF FRAGRANCE</div>
+  <h1>Luxury in<br><span>Every Drop.</span></h1>
+  <p>Discover your signature scent.<br>Elegance that leaves a lasting impression.</p>
+  <a class="btn" href="#collection">DISCOVER THE COLLECTION</a>
+</section>
+<section id="collection">
+  <div class="tag">FEATURED FRAGRANCE</div>
+  <h2>Our <span class="gold">Signature</span> Scent</h2>
+  <div class="product">
+    <div class="bottle">
+      <div class="cap"></div>
+      <div class="label">SEVEN STAR<br><br>IMPERIAL VALLEY</div>
+    </div>
+    <h2>IMPERIAL VALLEY</h2>
+    <p class="small">A fragrance made to express your individuality.</p>
+    <p class="price">Contact for Price</p>
+    <a class="btn" href="https://wa.me/" target="_blank">ORDER ON WHATSAPP</a>
+    <p class="small">Ask us for current price and availability.</p>
+  </div>
+</section>
+<section class="story" id="story">
+  <div class="tag">OUR PHILOSOPHY</div>
+  <h2>Designed for <span class="gold">Distinction.</span></h2>
+  <p class="small">SEVEN STAR PERFUME celebrates personal style,<br>craftsmanship and the beauty of fragrance.</p>
+  <p class="gold">DESIGN BY ABUZAR</p>
+</section>
+</main>
+<footer>
+  SEVEN STAR PERFUME<br><br>
+  IMPERIAL VALLEY · DESIGN BY ABUZAR<br><br>
+  © <span id="year"></span> SEVEN STAR PERFUME
+</footer>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
